@@ -1,2 +1,3 @@
 # twitter-automation-follower-ing-list
 This is an attempt to automate twitter account without using Twitters API services ,making use of python and beautiful soups web scrapping techniques.The code automates twitter logins and returns you a list of the usersnames (followers or following)  along with a list of people you are following,but in-turn doesn't follow you :).As twitter might change the source code for their website in the foreseeable future ,the code must also be changed to facilate the changes in the source code. Please feel free to add contents into the code or change it as required.Any advices on improvement (other usecases) are always welcome.
+NOTE : The code will take some time to finish its processing ,so be patient,give it some time.
