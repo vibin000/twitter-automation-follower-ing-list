@@ -9,14 +9,16 @@ from collections import OrderedDict
 
 #%%
 #Run the code below and define the class "twitterBot".After defining the class ,run help(twitterBot) to better understand what each function inside the class twitterBot does.
+#NOTE : at line 20 of the code below ,please specify the path where you have stored the .exe of selenium web browser for chrome browser.
+#Search chrome browser selenium web driver in google to download the webdriver.
 
 class twitterBot:
     """Takes in your username,password and path of the webdriver as strings and 
     gives the user's follower/following list as well as the usernames 
     followed by the user who are not following you back."""
-    def __init__(self,username,password,path):
+    def __init__(self,username,password):
         self.username = username
-        self.driver = webdriver.Chrome(executable_path=path)
+        self.driver = webdriver.Chrome(executable_path="Enter the path where you stored the .exe file of selenium web browser for chrome(or any other browser)")
         self.driver.get("https://twitter.com/login")
         sleep(2)
 #The below script will automate your twitter login. 
